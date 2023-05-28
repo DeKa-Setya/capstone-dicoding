@@ -13,10 +13,8 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import com.example.myapplication.ui.Cart.CartActivity
 import com.example.myapplication.databinding.ActivityMainBinding
-import com.example.myapplication.ui.CartActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -70,7 +68,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when(item.itemId) {
             R.id.menu_cart -> {
-                val intent = Intent(this,CartActivity::class.java)
+                val intent = Intent(this, CartActivity::class.java)
                 startActivity(intent)
                 true
             }

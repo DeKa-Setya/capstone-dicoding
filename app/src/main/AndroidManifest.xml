@@ -13,7 +13,10 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".ui.CartActivity"
+            android:name=".payment_success"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Cart.CartActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

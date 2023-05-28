@@ -31,4 +31,27 @@
         <item>@drawable/mousepad</item>
         <item>@drawable/charger</item>
     </integer-array>
+
+    <string-array name="data_harga">
+        <item>150RB/KG</item>
+        <item>100RB/KG</item>
+        <item>120RB/KG</item>
+        <item>80RB/KG</item>
+        <item>110RB/KG</item>
+    </string-array>
+
+    <string-array name="data_ikan">
+        <item>Ikan Kakap</item>
+        <item>Ikan Mas</item>
+        <item>Ikan Pari</item>
+        <item>Ikan Cupang</item>
+        <item>Ikan Nila</item>
+    </string-array>
+    <integer-array name="data_gambar">
+        <item>@drawable/ikan_kakap</item>
+        <item>@drawable/ikan_mas</item>
+        <item>@drawable/ikan_pari</item>
+        <item>@drawable/ikan_cupang</item>
+        <item>@drawable/ikan_nila</item>
+    </integer-array>
 </resources>
