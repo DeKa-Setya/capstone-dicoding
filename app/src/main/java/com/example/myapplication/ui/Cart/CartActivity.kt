@@ -1,6 +1,6 @@
 package com.example.myapplication.ui.Cart
 
-import PaymentSuccess
+import com.example.myapplication.PaymentSuccess
 import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
